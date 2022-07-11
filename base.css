@@ -1,0 +1,55 @@
+strong {
+    font-weight: bold;
+}
+
+
+body {
+    background:linear-gradient(black 100%, greenyellow);
+    margin: auto;
+    text-align: justify;
+    text-indent: 3ch;
+}
+
+
+
+
+h2 {
+    
+    font-family: 'Bungee Shade', cursive;
+    margin: 1.5em;
+    font-size: 50px;
+    color: #00FF7F;
+    width: 80%;
+}
+
+p {
+
+    font-family: 'Goldman', cursive;
+    margin: 1.5em;
+    text-align: justify;
+    color: #00FF00;
+    font-size: 20px;
+    max-width: 100%;
+}
+
+
+
+
+@media (max-width: 1000px) {
+    h2 {
+        font-size: 18px;
+        text-align: justify;
+        }
+
+    p {
+        text-align: justify;
+    }
+    
+}
+
+
+.atividades:before, .itens:before, .icones__projetos:before {
+	
+    content: "✔";
+
+}

@@ -1,0 +1,47 @@
+.imagem__silvio__santos {
+    margin: auto;
+    max-height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    
+    transform: translate( 50%, 5%);
+
+
+}
+
+
+
+.santos-dumont-campeonato {
+    transform: translate(  200%, 5%);
+    border-radius: 10px;
+    max-width: 250px; 
+
+}
+
+ .friends__gif{
+    margin: auto;
+    max-height: 400px;
+    max-width: 500px;
+    border-radius: 20px;
+    transform: translate( 50%, 5%);
+
+    
+}
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .imagem__silvio__santos, .friends__gif {
+        max-width:250px;
+        transform: translate( 60%, 5%);
+    }
+
+    .santos-dumont-campeonato {
+
+        max-width: 150px;
+        transform: translate(100%);
+    }
+}

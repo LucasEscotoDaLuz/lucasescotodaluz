@@ -1,0 +1,21 @@
+.mapa {
+    font-weight: bold;
+    
+    text-align: center;
+}
+    
+.mapa__imagem {
+    width: 100%;
+    margin: 0 auto;
+       
+}
+    
+
+@media (max-width: 1024px) {
+    .mapa__imagem, .mapa {
+        width: 100%;
+    }
+
+
+        
+}

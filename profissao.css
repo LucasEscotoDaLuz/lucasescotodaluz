@@ -1,0 +1,190 @@
+.titulo__faculdade {
+    opacity: 0.4;
+    margin: auto;
+    transform: translate(50%, 25%);
+    color: black;
+}
+
+
+.container__faculdade {
+    background:#008000;
+    display: flex;
+    text-align: justify;
+    width: 100%;
+    margin: 0 0 25px 0;
+    display: -moz-grid-group;
+
+
+}
+
+.toga {
+    
+    display: block;
+    margin: 50px 0 20px 0;
+    max-width: 66px;
+    max-height: 200px;
+    text-align: center;
+    
+}
+
+.curso {
+    color: black;
+    text-align: justify;
+    font-size: 30px;
+    margin: 2.5em;
+    
+    transform: translate(15%)
+}
+
+
+.grid__template__columns__1 { 
+
+    display: grid;
+    justify-content: center;
+    margin: auto;
+	grid-template-columns: 100px 100px 100px 100px 100px 160px 100px 100px  100px 100px 100px;
+    
+    align-content: center;
+    max-width: 100%;    
+}
+
+
+
+@media (max-width: 1400px) {
+    .curso {
+        font-size: 20px;
+        margin: 1.5em; 
+        display: grid;   
+             
+    }
+
+}
+@media (max-width: 1024px) {
+
+    .container__faculdade {
+        max-width: 100%;
+    }
+
+
+    .habilidades {
+        max-width: 100%;
+    }
+
+    .grid__template__columns__1 {
+        display: grid;
+        max-width: 90%;
+        grid-template-columns: repeat(1, 0.5fr);
+        
+    
+    }
+
+    .icones__habilidades {
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: 25px;
+
+    }
+
+    .titulo__habilidades {
+        font-size: 24px;
+    }
+
+    .nome__empresa {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .cargo {
+        font-size: 14px;
+        text-align: center;
+    }
+    .atividades__desempenhadas, .atividades {
+        font-size: 14px;
+        text-align: ju;
+    }
+
+
+
+}
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .container__faculdade {
+        max-width: 100%;
+        display:inline-flex;
+    } 
+
+}
+
+
+
+
+
+
+.container__titulo {
+    background: black;
+    max-width: 90%;
+}
+
+.container__vida{
+    background:black;
+    background-size: 200px;
+    margin: 25px;
+    display: flex;
+    text-align: justify;
+    width: 100%;
+}
+
+
+.atividades__desempenhadas {
+    color: grey;
+}
+
+
+.cargo {
+    text-align: center;
+}
+
+
+.habilidades {
+    background: #008000;
+    color: black;
+    padding: 5px;
+    max-width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+/*Seção de Histórico Profissional*/
+
+.icones__habilidades {
+    
+    display:grid;
+    margin: auto;
+    max-width:  60px;
+    max-height: 100px;
+    
+}
+
+
+
+.titulo__habilidades {
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+

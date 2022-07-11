@@ -1,0 +1,76 @@
+.icones__redes__sociais {
+    background-color: #008000;
+   text-align: justify;
+}
+
+
+/*Ícones Redes Sociais*/
+.rede-linkedin {
+    margin: 100px;
+    max-width: 100px;
+    max-height: 255px;
+    object-fit: contain;
+    
+
+}
+
+.rede-instagram, .rede-github {
+    margin: 100px;
+    max-width:  150px;
+    max-height: 255px;
+    object-fit: contain;
+   
+}
+
+.rede-whatsapp {
+    
+    margin: 100px;
+    max-width:  80px;
+    max-height: 155px;
+    object-fit: contain;
+    
+}
+
+
+
+footer {
+    text-align: center;
+    background: black;  
+    padding: 25px;
+}
+
+.texto__rodape {
+    
+    text-align: center;
+    font-size: 16px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .texto__rodape {
+        
+        flex-direction:column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+    }
+
+    .icones__redes__sociais {
+        grid-template-columns: repeat(1, 0.5fr);
+        
+    }
+    .rede-linkedin, .rede-github, .rede-instagram, . {
+        max-width: 90%;
+        align-items: center;
+   
+
+    }
+
+    .rede-whatsapp { 
+        transform: translate(50%);
+     
+        
+
+    }
+
+}

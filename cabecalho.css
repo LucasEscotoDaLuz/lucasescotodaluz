@@ -1,0 +1,66 @@
+header {
+    position: relative;
+    background: linear-gradient( #006400 0.3%, #008000 5%, #228B22 20%, black 100%) ;   
+    padding: 100px;
+    max-width: 100%;
+}
+
+.cabecalho__logo {
+    opacity: 0.2;
+    
+    height: 200px;
+    width: 200px;
+    justify-content: center;  
+    align-items: center;
+}
+
+ul {
+    list-style: none;    
+    text-align: justify;
+    
+}
+
+nav a  {
+    font-family: 'Cabin Sketch', cursive;
+	text-transform: uppercase;
+    color: #00FA9A;
+	font-size: 26px;
+	text-decoration: none;
+}
+
+
+nav a:hover {
+	color: #00FF00;
+	text-decoration: underline;
+}
+
+
+nav li {
+	display: inline-block;
+    text-align: center;
+    margin: 1.5em 0;
+
+  
+}
+
+@media  (max-width: 1024px) {
+    header {
+        max-width: 100%;
+        font-size: 14px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    
+    }
+
+    .cabecalho__logo {
+        height: 100px;
+        width: 100px;
+        justify-content: center;  
+        align-items: center;
+        display: inline-block;
+
+
+    }  
+    
+}

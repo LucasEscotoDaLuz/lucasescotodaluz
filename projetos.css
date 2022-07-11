@@ -1,0 +1,55 @@
+.pwb {
+    width: 100vw;
+    background: black;
+}
+
+.institucional__video {
+    width: 75vw;
+}
+
+@media screen and (min-width: 768px) {
+
+    .pwb, .mapa__imagem,  body {
+        width: 100%;
+    }
+}
+
+a {
+    max-width: 177px;
+    max-height: 255px;
+    object-fit: contain;
+    border-radius: 100px;
+    
+}
+
+
+
+.nome__empresa{
+    font-family: 'Finlandica', sans-serif;
+    font-size: 60px;
+    color: #006400; 
+    margin: 25px;
+    text-align: center;
+}
+
+
+.cargo {
+    font-family: 'Finlandica', sans-serif;
+    font-size: 25px;
+    margin: 25px;
+}
+
+
+.periodo {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 2.5em;
+    font-size: 25px; 
+}
+
+
+.icone-contato {
+    max-width: 177px;
+    max-height: 255px;
+    object-fit: contain;
+    border-radius: 100px ;
+}
